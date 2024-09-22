@@ -1,11 +1,14 @@
 *{
     margin: 0%;
     padding: 0%;
+
 }
 .logo{
     float: left;
     margin-left: 80px;
     padding: 40px;
+    width: auto;
+    height: auto;
     
 }
 ul{
@@ -37,8 +40,6 @@ li a{
 }
 .center{
     padding: 240px;
-    
-
 }
 .title{
     color: white;
@@ -89,8 +90,6 @@ span{
     flex-wrap: wrap; /* Allows wrapping if screen is too small */
     margin: 100px;
     
-    
-    
 }
 
 .image-item {
@@ -102,7 +101,6 @@ span{
 img {
     width: 150px; /* Make the image take up the full width of its container */
     height: 150px; /* Keep the aspect ratio of the image */
-
 }
 
 h3 {
@@ -119,3 +117,31 @@ p {
     font-style: italic;
     padding-right:  5px;
 }   
+.cercle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+blockquote{
+    width: 100%;
+    height: 392px;
+    background-color: #C271FF;
+    text-align: center;
+    border-style: none;
+    color: white;
+    padding: 50px;
+}
+.para{
+    font-size:  25px;
+    color: white;
+    font-family: arial;
+
+}
+.header{
+    font-size: 150px;
+    color: black;
+}
+.objet{
+    margin-top: -82px;
+}
