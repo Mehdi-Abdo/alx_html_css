@@ -321,7 +321,7 @@ span:nth-child(2){
 .results{
     padding-bottom: var(--bottom-p);
     padding-top: var(--top-p);
-    background-image: url(/images/headphones_hero_2.jpg);
+    background-image: url(../headphones/images/headphones_hero_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
